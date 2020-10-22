@@ -79,13 +79,15 @@ class SecondForm extends Component {
                         <tr>
                             <td className="td-time">{task.time}</td>
                             {task.actionName.map((actionName) => (
-                                <>
-                                    {!actionName.action ? (
-                                        <td className={`td td${actionName.number}`}></td>
-                                    ) : (
-                                            <td className={`td td${actionName.number}`}>{actionName.action}</td>
-                                        )}
-                                </>
+                                 <td className={`td td${actionName.number}`}>
+                                    {actionName.actions.map((actions) => (
+                                        <>{actions.action !== " " ? (
+                                            <>★ {actions.action}<br></br></>
+                                        ):(
+                                            null
+                                        )}</>
+                                    ))}
+                                </td>
                             ))}
                         </tr>
                     ))}

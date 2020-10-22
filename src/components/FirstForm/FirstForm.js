@@ -4,6 +4,7 @@ import { setStateAsync } from "../../helper";
 import { Button, Row, Col } from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 import SecondForm from "../SecondForm/SecondForm";
+import { lsWithGrep } from "../../helpers/testShell";
 
 class FirstForm extends Component {
     constructor(props) {
@@ -20,6 +21,9 @@ class FirstForm extends Component {
             isFirstPage: false,
             name: document.getElementById('name').value
         });
+        
+        // lsWithGrep();
+        
     }
 
     render() {

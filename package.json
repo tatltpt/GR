@@ -11,6 +11,7 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "chalk": "^2.4.2",
+    "child-process-promise": "^2.2.1",
     "concurrently": "^5.2.0",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
@@ -30,15 +31,17 @@
     "nodemailer": "^6.4.10",
     "pug": "^3.0.0",
     "react": "^16.13.1",
+    "react-alert": "^7.0.2",
     "react-bootstrap": "^1.0.1",
     "react-bootstrap-icons": "^1.0.3-alpha4",
     "react-dom": "^16.13.1",
     "react-markdown-editor-lite": "^1.1.5",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^3.4.4",
     "redux": "^4.0.5",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "terminal-in-react": "^4.3.1"
   },
   "scripts": {
     "start": "react-scripts start",

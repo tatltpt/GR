@@ -39,6 +39,8 @@ exports.factory = function (express, folderController, noteController, shareCont
     router.put("/tasknumber", taskController.addActionNameAndNumber);
     router.put("/task", taskController.updateAction);
 
+    router.get("/run", taskController.run);
+
     router.get('/folders', function (req, res, next) {
         var schema = mongoose.Schema({
             _id: mongoose.Types.ObjectId,

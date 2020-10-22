@@ -14,7 +14,9 @@ exports.factory = function (mongoose) {
             time: String,
             actionName: [{
                 name: String,
-                action: String,
+                actions: [{
+                    action: String,
+                }],
                 number: String,
             }],
         })
