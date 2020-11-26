@@ -18,8 +18,23 @@ class AddActionModal extends Component {
         const hourDay = document.getElementById('hourDay').value;
         const beforeAfter = document.getElementById('beforeAfter').value;
         let finalTime = time + hourDay + beforeAfter;
+        if (beforeAfter === '前') {
+        if (hourDay === '時間') {
+        finalTime = 'c' + finalTime;
+        } else if (hourDay === '⽇') {
+        finalTime = 'd' + finalTime;
+        }
+        finalTime = 'a' + finalTime;
+        } else if (beforeAfter === '後') {
+        if (hourDay === '時間') {
+        finalTime = 'd' + finalTime;
+        } else if (hourDay === '⽇') {
+        finalTime = 'c' + finalTime;
+        }
+        finalTime = '-b' + finalTime;
+        }
         if (time === "0") {
-            finalTime = "0h";
+        finalTime = "0h";
         }
         const action = document.getElementById('action').value;
         const task = await (await TaskDataService.getAll()).data.tasks;

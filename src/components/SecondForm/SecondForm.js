@@ -54,6 +54,14 @@ class SecondForm extends Component {
         });
     }
 
+    convertTime = (str) => {
+        str = str.split('a').join('');
+        str = str.split('b').join('');
+        str = str.split('c').join('');
+        str = str.split('d').join('');
+        return str.split('-').join('');
+      };
+
     render() {
         const { openModal, openActionModal, name } = this.state;
         return (
@@ -77,7 +85,7 @@ class SecondForm extends Component {
                     </tr>
                     {this.state.task.map((task) => (
                         <tr>
-                            <td className="td-time">{task.time}</td>
+                            <td className="td-time">{this.convertTime(task.time)}</td>
                             {task.actionName.map((actionName) => (
                                  <td className={`td td${actionName.number}`}>
                                     {actionName.actions.map((actions) => (
