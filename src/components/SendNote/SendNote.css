@@ -1,0 +1,33 @@
+.modal-container {
+    position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+}
+
+#modal {
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+#modal_header {
+    background: #c9c5c5;
+    height: 60px;
+}
+
+#modal_body {
+    background: #ffffff;
+    height: auto;
+}
+
+#modal_footer {
+    background: #ffffff;
+    height: auto;
+}
+
+#modal_body1 {
+    background: #ffffff;
+    height: 350px;
+    overflow-x: auto;
+    overflow-wrap: auto;
+}

@@ -1,0 +1,2 @@
+cd ~/Booking
+scrapy crawl Hanoi

@@ -1,0 +1,74 @@
+.noteItem:hover {
+  background-color: #dee2e6;
+}
+
+.actived {
+  background-color: #dee2e6;
+}
+
+.noteItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.noteItem .noteName {
+  font-weight: 600;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.noteItem .createdAt {
+  opacity: 0.7;
+  font-size: 0.9em;
+}
+.not-pin{
+  display: none;
+}
+.pinToTop{
+  display: block!important;
+  font-style: italic;
+  font-size: 12px;
+}
+.sub-table{
+  display: none;
+}
+.open{
+  display: block!important;
+  position: absolute;
+  right: 0px;
+  width: 200px;
+  /* padding: 0; */
+  border: 1px solid;
+  /* margin: 0; */
+  z-index: 10;
+  background: #fff;
+  /*padding-left: 10px;*/
+}
+.open p{
+  margin: 0;
+  padding: 5px 10px;
+}
+.open p:hover{
+  background: #c4c4c4;
+}
+.list-folders, .list-version{
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list-folders li:hover, .list-version li:hover{
+  background: #c4c4c4;
+}
+.move-to-folders:hover .list-folders{
+  display: block;
+  margin-left: 15px;
+}
+.rollback:hover .list-version{
+  display: block;
+  margin-left: 15px;
+}
+

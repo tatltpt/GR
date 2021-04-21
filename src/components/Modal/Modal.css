@@ -1,0 +1,43 @@
+.modal {
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.modal-title {
+    padding-left: 150px;
+}
+
+.modal-label {
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.modal-label-2line {
+    padding-left: 20px;
+    padding-right: 50px;
+    max-width: 120px;
+}
+
+.button-apply {
+    width: 40%;
+    margin-right: 25px;
+}
+
+.button-close {
+    width: 40%;
+    margin-right: 25px;
+}
+
+.time-input {
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+.select-box {
+    width: 90px !important;
+    margin-right: 20px;
+}
+
+.input-task {
+    width: 270px !important;
+}

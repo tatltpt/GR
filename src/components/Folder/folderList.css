@@ -1,0 +1,12 @@
+.my-tree .ant-tree-treenode {
+    width: 100%;
+}
+
+.my-tree .ant-tree-treenode .ant-tree-node-content-wrapper {
+    text-align: left;
+    width: 100%;
+}
+
+.my-tree .ant-tree-treenode .ant-tree-node-content-wrapper .ant-tree-title {
+    width: 100%;
+}

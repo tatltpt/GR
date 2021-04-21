@@ -1,0 +1,65 @@
+.div-form {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.name-button {
+    width: 250px;
+    height: 50px;
+    margin-left: 23px;
+    font-weight: 500;
+}
+
+.name-button-group {
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 11px;
+    font-weight: 900;
+}
+
+.table {
+    margin-top: 40px;
+    width: auto;
+    border-top: hidden;
+}
+
+.td-time {
+    min-width: 90px !important;
+    border-top: none !important;
+    text-align: center !important;
+}
+
+.td {
+    width: 320px;
+    margin-left: 20px !important;
+    border: 1px solid !important;
+}
+
+.tr-button-table {
+    border: none;
+}
+
+.td0 {
+    background-color: #afd9f1;
+}
+
+.td1{
+    background-color: #a6e9a0;
+}
+
+.td2 {
+    background-color: #e7e688;
+}
+
+.td3 {
+    background-color: #c9a7dd;
+}
+
+.td4 {
+    background-color: #f0addc;
+}
+
+.td5 {
+    background-color: #eeb4b7;
+}

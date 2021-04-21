@@ -1,0 +1,51 @@
+.noteHeader {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #dee2e6;
+  justify-content: space-between;
+}
+
+.noteHeader .editButton {
+  font-weight: bold;
+  color: rgba(171, 113, 25, 1);
+  cursor: pointer;
+}
+
+.noteHeader .textHeader {
+  font-size: large;
+  font-weight: bold;
+}
+
+.noteContent {
+  /*overflow: auto;*/
+  max-height: 80vh;
+  width: 100%;
+}
+.note{
+  position: relative;;
+}
+.note .action{
+  position: absolute;
+  /*z-index: 2;*/
+  right: 10px;
+  top: 5px;
+}
+
+.note .more-action{
+  margin: 0;
+  padding: 0px 10px;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+.note .action .pin {
+  display: none;
+  position: absolute;
+  right: 30px;
+  padding: 0px 10px;
+  border: 1px solid;
+  top: 0px;
+  z-index: 2;
+}
+.active .pin{
+  display: block!important;
+}

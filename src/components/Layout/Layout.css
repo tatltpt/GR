@@ -1,0 +1,72 @@
+.header-background {
+    height: 170px;
+    background-color: rgb(236, 229, 124);
+    text-align: center;
+    background-image: url('../../assets/header.jpg');
+    background-size: 100% 100%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(233, 93, 74);
+    color: white;
+    text-align: center;
+}
+
+.footer-time {
+    position: absolute;
+    right: 5px;
+    color: #ffffff;
+}
+
+.slidebar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(228, 132, 119);
+    text-align: center;
+}
+
+.menu-action {
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    background-color: aqua;
+}
+
+.h1 {
+    padding-top: 20px;
+}
+
+.form {
+    width: 100%;
+    padding-top: 10px !important;
+    padding-left: 350px !important;
+}
+
+.form-label {
+    font-size: 25px;
+    align-items: center;
+}
+
+.form-control {
+    margin-left: 30px;
+    width: 300px !important;
+    height: 40px;
+}
+
+.button-start {
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 200px;
+}
+
+.menubar {
+    margin-bottom: 100px;
+}

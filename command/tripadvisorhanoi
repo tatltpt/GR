@@ -1,0 +1,2 @@
+cd ~/Tripadvisor
+scrapy crawl Hanoi
