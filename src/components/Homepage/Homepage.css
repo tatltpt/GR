@@ -42,4 +42,12 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-  
+.img-thumbnail-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  }
+  .page-content {
+    padding: 8px 10px !important;
+  }

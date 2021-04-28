@@ -6,6 +6,8 @@ import verifyPage from './components/SendNote/verifyPage/verifyPage';
 import ShowNote from './components/SendNote/ShowNote/ShowNote';
 //import { BrowserRouter as Router, Switch, Route, Link, NavLink } from "react-router-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import ListEvent from './components/ListEvent/ListEvent';
+
 
 class App extends Component {
 
@@ -23,7 +25,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Homepage} />
+          <Route path="/list-event" exact component={ListEvent} />
           <Route path="/home" exact component={Homepage} />
           <Route path="/verify/:shareID" component={verifyPage} />
           <Route path="/showNote/:shareID" component={ShowNote} />
